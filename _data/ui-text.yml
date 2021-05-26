@@ -108,6 +108,7 @@ ru: &DEFAULT_RU
   search_placeholder_text    : "Введите поисковый запрос..."
   search_algolia_no_results  :
   results_found              : "Найдено"
+  back_to_top                : "Вернуться на верх"  
 ru-RU:
   <<: *DEFAULT_RU
 
