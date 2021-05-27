@@ -99,7 +99,7 @@ defaults:
       author_profile: false
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -108,6 +108,18 @@ defaults:
     values:
       layout: splash
       author_profile: false
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: splash
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
 
 category_archive:
   type: liquid

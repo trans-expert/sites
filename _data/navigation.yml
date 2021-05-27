@@ -1,9 +1,29 @@
+# Главное меню
 main:
-  - title: "Posts"
+  - title: "Инструкции"
+    url: /docs/area/
+  - title: "Публикации"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+    children:
+    - title: "Categories"
+      url: /categories/
+    - title: "Tags"
+      url: /tags/
+  - title: "О компан"
     url: /about/
+
+#
+docs:
+  - title: "Область применения"
+    url: /docs/area
+    children:
+    - title: "Промпредприятия"
+      url: /docs/area/industrial
+    - title: "Станции"
+      url: /docs/area/station
+    - title: "Узлы"
+      url: /docs/area/junction
+    - title: "Узлы"
+      url: /docs/area/polygon
+  - title: "Опыт применения"
+    url: /docs/experience
