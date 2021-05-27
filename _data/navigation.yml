@@ -1,29 +1,32 @@
 # Главное меню
 main:
-  - title: "Инструкции"
-    url: /docs/area/
+  - title: "О системе"
+    url: /docs/system/
   - title: "Публикации"
     url: /posts/
-    children:
-    - title: "Categories"
-      url: /categories/
-    - title: "Tags"
-      url: /tags/
+  - title: "по категори"
+    url: /categories/
+  - title: "по тегам"
+    url: /tags/
+  - title: "Заказать"
+    url: /docs/order/    
   - title: "О компан"
     url: /about/
 
 #
 docs:
+  - title: "Возможности"
+    url: /docs/scope/
   - title: "Область применения"
-    url: /docs/area
+    url: /docs/area/
     children:
     - title: "Промпредприятия"
-      url: /docs/area/industrial
+      url: /docs/area/industrial/
     - title: "Станции"
-      url: /docs/area/station
+      url: /docs/area/station/
     - title: "Узлы"
-      url: /docs/area/junction
-    - title: "Узлы"
-      url: /docs/area/polygon
+      url: /docs/area/junction/
+    - title: "Полигоны"
+      url: /docs/area/polygon/
   - title: "Опыт применения"
-    url: /docs/experience
+    url: /docs/experience/
