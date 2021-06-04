@@ -10,7 +10,7 @@ main:
     url: /tags/
   - title: "Заказать"
     url: /order/
-  - title: "О компан"
+  - title: "О компании"
     url: /about/
 
 #
