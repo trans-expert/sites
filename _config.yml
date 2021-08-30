@@ -16,6 +16,7 @@
 locale: "ru-RU"
 title: trans-expert.ru
 subtitle: "Транспортный Алгоритм"
+logo: "assets/images/logo.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
